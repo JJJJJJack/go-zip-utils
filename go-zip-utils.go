@@ -10,7 +10,7 @@ import (
 
 type ZipMap map[string]*zip.File
 
-// NewZipMapFromFilename creates a ZipMap from the given byte slice containing zip data.
+// NewZipMapFromFilename creates a ZipMap from the given zip filename.
 func NewZipMapFromFilename(filename string) (ZipMap, error) {
 	data, err := os.ReadFile(filename)
 	if err != nil {
