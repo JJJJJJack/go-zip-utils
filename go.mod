@@ -1,3 +1,3 @@
 module github.com/JJJJJJack/go-zip-utils
 
-go 1.24.6
+go 1.18
